@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="1" failures="0" name="User can log in account" skipped="0" tests="1" time="0.74" timestamp="2020-11-26 08:51:04"><testcase name="User cn log in account"><error type="java.lang.NullPointerException"/><system-err>null&#13;
+starter.stepdefinitions.LoginStepDefinitions.the_User_is_on_page_WMU(LoginStepDefinitions.java:29)&#13;
+✽.the User is on page WMU(file:src/test/resources/features/Login.feature:5)&#13;
+</system-err></testcase></testsuite>

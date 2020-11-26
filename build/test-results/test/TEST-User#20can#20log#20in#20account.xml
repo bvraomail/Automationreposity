@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="User can log in account" tests="1" skipped="0" failures="1" errors="0" timestamp="2020-11-26T15:21:04" hostname="VENKIPC" time="0.779">
+  <properties/>
+  <testcase name="User cn log in account" classname="User can log in account" time="0.779">
+    <failure message="java.lang.NullPointerException" type="java.lang.NullPointerException">java.lang.NullPointerException
+	at net.serenitybdd.screenplay.actors.OnStage.anActorIsOnStage(OnStage.java:41)
+	at net.serenitybdd.screenplay.actors.OnStage.theActorCalled(OnStage.java:32)
+	at starter.stepdefinitions.LoginStepDefinitions.the_User_is_on_page_WMU(LoginStepDefinitions.java:29)
+	at ✽.the User is on page WMU(file:src/test/resources/features/Login.feature:5)
+</failure>
+  </testcase>
+  <system-out><![CDATA[Feature: User can log in account
+
+  @login
+  Scenario: User cn log in account          ?[90m# src/test/resources/features/Login.feature:4?[0m
+20:51:04.572 [Test worker] INFO  - 
+ _____ _____ ____ _____   ____ _____  _    ____ _____ _____ ____  
+|_   _| ____/ ___|_   _| / ___|_   _|/ \  |  _ \_   _| ____|  _ \ 
+  | | |  _| \___ \ | |   \___ \ | | / _ \ | |_) || | |  _| | | | |
+  | | | |___ ___) || |    ___) || |/ ___ \|  _ < | | | |___| |_| |
+  |_| |_____|____/ |_|   |____/ |_/_/   \_\_| \_\|_| |_____|____/ 
+
+User cn log in account(user-can-log-in-account;user-cn-log-in-account)
+-------------------------------------------------------------------
+    ?[31mGiven ?[0m?[31mthe ?[0m?[31m?[1mUser?[0m?[31m is on page WMU?[0m           ?[90m# LoginStepDefinitions.the_User_is_on_page_WMU(String)?[0m
+      ?[31mjava.lang.NullPointerException
+	at net.serenitybdd.screenplay.actors.OnStage.anActorIsOnStage(OnStage.java:41)
+	at net.serenitybdd.screenplay.actors.OnStage.theActorCalled(OnStage.java:32)
+	at starter.stepdefinitions.LoginStepDefinitions.the_User_is_on_page_WMU(LoginStepDefinitions.java:29)
+	at ?.the User is on page WMU(file:src/test/resources/features/Login.feature:5)
+?[0m
+    ?[36mWhen ?[0m?[36menters the credentials?[0m             ?[90m# LoginStepDefinitions.enters_the_credentials(String>)?[0m
+    ?[36mThen ?[0m?[36mthe user is successfully logged in?[0m ?[90m# LoginStepDefinitions.the_user_is_successfully_logged_in()?[0m
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
