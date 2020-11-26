@@ -1,7 +1,7 @@
 Feature: User can log in account
 
   @login
-  Scenario: User cn log in account
+  Scenario: User can log in account
     Given the User is on page WMU
     When enters the credentials
       |administrator|realpage|

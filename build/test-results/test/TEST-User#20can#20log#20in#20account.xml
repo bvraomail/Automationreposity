@@ -1,36 +1,68 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="User can log in account" tests="1" skipped="0" failures="1" errors="0" timestamp="2020-11-26T15:21:04" hostname="VENKIPC" time="0.779">
+<testsuite name="User can log in account" tests="1" skipped="0" failures="0" errors="0" timestamp="2020-11-26T16:20:13" hostname="DESKTOP-7658FGJ" time="9.937">
   <properties/>
-  <testcase name="User cn log in account" classname="User can log in account" time="0.779">
-    <failure message="java.lang.NullPointerException" type="java.lang.NullPointerException">java.lang.NullPointerException
-	at net.serenitybdd.screenplay.actors.OnStage.anActorIsOnStage(OnStage.java:41)
-	at net.serenitybdd.screenplay.actors.OnStage.theActorCalled(OnStage.java:32)
-	at starter.stepdefinitions.LoginStepDefinitions.the_User_is_on_page_WMU(LoginStepDefinitions.java:29)
-	at ✽.the User is on page WMU(file:src/test/resources/features/Login.feature:5)
-</failure>
-  </testcase>
+  <testcase name="User can log in account" classname="User can log in account" time="9.937"/>
   <system-out><![CDATA[Feature: User can log in account
 
   @login
-  Scenario: User cn log in account          ?[90m# src/test/resources/features/Login.feature:4?[0m
-20:51:04.572 [Test worker] INFO  - 
+  Scenario: User can log in account         ?[90m# src/test/resources/features/Login.feature:4?[0m
+11:20:13.455 [Test worker] INFO  - 
  _____ _____ ____ _____   ____ _____  _    ____ _____ _____ ____  
 |_   _| ____/ ___|_   _| / ___|_   _|/ \  |  _ \_   _| ____|  _ \ 
   | | |  _| \___ \ | |   \___ \ | | / _ \ | |_) || | |  _| | | | |
   | | | |___ ___) || |    ___) || |/ ___ \|  _ < | | | |___| |_| |
   |_| |_____|____/ |_|   |____/ |_/_/   \_\_| \_\|_| |_____|____/ 
 
-User cn log in account(user-can-log-in-account;user-cn-log-in-account)
+User can log in account(user-can-log-in-account;user-can-log-in-account)
 -------------------------------------------------------------------
-    ?[31mGiven ?[0m?[31mthe ?[0m?[31m?[1mUser?[0m?[31m is on page WMU?[0m           ?[90m# LoginStepDefinitions.the_User_is_on_page_WMU(String)?[0m
-      ?[31mjava.lang.NullPointerException
-	at net.serenitybdd.screenplay.actors.OnStage.anActorIsOnStage(OnStage.java:41)
-	at net.serenitybdd.screenplay.actors.OnStage.theActorCalled(OnStage.java:32)
-	at starter.stepdefinitions.LoginStepDefinitions.the_User_is_on_page_WMU(LoginStepDefinitions.java:29)
-	at ?.the User is on page WMU(file:src/test/resources/features/Login.feature:5)
-?[0m
-    ?[36mWhen ?[0m?[36menters the credentials?[0m             ?[90m# LoginStepDefinitions.enters_the_credentials(String>)?[0m
-    ?[36mThen ?[0m?[36mthe user is successfully logged in?[0m ?[90m# LoginStepDefinitions.the_user_is_successfully_logged_in()?[0m
+11:20:14.051 [Test worker] DEBUG net.thucydides.core.steps.StepInterceptor - STARTING STEP: LoginStepDefinitions.the_User_is_on_page_WMU - !#title
+11:20:14.054 [Test worker] DEBUG net.thucydides.core.steps.StepInterceptor - STARTING STEP: LoginStepDefinitions.the_User_is_on_page_WMU - {0} opens the #targetPageName
+11:20:14.524 [Test worker] INFO net.serenitybdd.core.webdriver.driverproviders.ProvideNewDriver - Instantiating driver
+11:20:14.524 [Test worker] INFO net.serenitybdd.core.webdriver.driverproviders.ProvideNewDriver - Driver capabilities: Capabilities {acceptInsecureCerts: false, browserName: chrome, chrome.switches: --start-maximized;--test-ty..., goog:chromeOptions: {args: [--start-maximized, --test-type, --no-sandbox, --ignore-certificate-errors..., --incognito, --disable-popup-blocking, --disable-default-apps, --disable-extensions-file-a..., --disable-infobars, --disable-gpu, --disable-web-security, --allow-running-insecure-co...], extensions: []}, loggingPrefs: org.openqa.selenium.logging..., platform: ANY, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: }
+11:20:18.055 [Test worker] DEBUG net.serenitybdd.core.photography.Darkroom - Opening darkroom
+11:20:18.058 [Darkroom Processing Line] DEBUG net.serenitybdd.core.photography.DarkroomProcessingLine - Darkroom processing line starting up
+11:20:18.484 [Test worker] DEBUG net.serenitybdd.core.photography.Darkroom - Send negative for processing for C:\Users\Dmeza\Desktop\venkireposity\target\site\serenity\dceeed8b872fac2b6d54d8a541b13654f3ad8799670b76c3881f4652e253b12d.png
+11:20:18.485 [Darkroom Processing Line] DEBUG net.serenitybdd.core.photography.DarkroomProcessingLine - Processing screenshot image in /var/screenshots/screenshot-5016788001274785953
+11:20:18.485 [Darkroom Processing Line] DEBUG net.serenitybdd.core.photography.DarkroomProcessingLine - Saving screenshot to C:\Users\Dmeza\Desktop\venkireposity\target\site\serenity\dceeed8b872fac2b6d54d8a541b13654f3ad8799670b76c3881f4652e253b12d.png
+11:20:18.488 [Test worker] DEBUG net.thucydides.core.steps.StepInterceptor - STEP DONE: {0} opens the #targetPageName
+11:20:18.499 [Test worker] DEBUG net.thucydides.core.steps.StepInterceptor - STEP DONE: !#title
+    ?[32mGiven ?[0m?[32mthe ?[0m?[32m?[1mUser?[0m?[32m is on page WMU?[0m           ?[90m# LoginStepDefinitions.the_User_is_on_page_WMU(String)?[0m
+11:20:18.858 [Test worker] DEBUG net.serenitybdd.core.photography.Darkroom - Send negative for processing for C:\Users\Dmeza\Desktop\venkireposity\target\site\serenity\821d545e397e541ffd9df32d3182b159b8745b8c739c6a6aff179ab0c60f68c2.png
+11:20:18.859 [Darkroom Processing Line] DEBUG net.serenitybdd.core.photography.DarkroomProcessingLine - Processing screenshot image in /var/screenshots/screenshot-2083456172685554242
+11:20:18.859 [Darkroom Processing Line] DEBUG net.serenitybdd.core.photography.DarkroomProcessingLine - Saving screenshot to C:\Users\Dmeza\Desktop\venkireposity\target\site\serenity\821d545e397e541ffd9df32d3182b159b8745b8c739c6a6aff179ab0c60f68c2.png
+11:20:18.860 [Test worker] DEBUG net.thucydides.core.steps.StepInterceptor - STARTING STEP: Credentials.performAs - {0} enters #theTextAsAString into #locatorNames
+11:20:19.228 [Test worker] DEBUG net.serenitybdd.core.photography.Darkroom - Send negative for processing for C:\Users\Dmeza\Desktop\venkireposity\target\site\serenity\29a292832d52528244a436e17772385aa53d29fc06831211abb366a1d33cae01.png
+11:20:19.228 [Darkroom Processing Line] DEBUG net.serenitybdd.core.photography.DarkroomProcessingLine - Processing screenshot image in /var/screenshots/screenshot-5537483408871911969
+11:20:19.228 [Darkroom Processing Line] DEBUG net.serenitybdd.core.photography.DarkroomProcessingLine - Saving screenshot to C:\Users\Dmeza\Desktop\venkireposity\target\site\serenity\29a292832d52528244a436e17772385aa53d29fc06831211abb366a1d33cae01.png
+11:20:19.228 [Test worker] DEBUG net.thucydides.core.steps.StepInterceptor - STEP DONE: {0} enters #theTextAsAString into #locatorNames
+11:20:19.240 [Test worker] DEBUG net.thucydides.core.steps.StepInterceptor - STARTING STEP: Credentials.performAs - {0} enters #theTextAsAString into #locatorNames
+11:20:19.635 [Test worker] DEBUG net.serenitybdd.core.photography.Darkroom - Send negative for processing for C:\Users\Dmeza\Desktop\venkireposity\target\site\serenity\d64c105650f1f937165f5cf98cc62bc2801ef6373c5d79b0db57d7b1e2ca7b1d.png
+11:20:19.635 [Test worker] DEBUG net.thucydides.core.steps.StepInterceptor - STEP DONE: {0} enters #theTextAsAString into #locatorNames
+11:20:19.636 [Darkroom Processing Line] DEBUG net.serenitybdd.core.photography.DarkroomProcessingLine - Processing screenshot image in /var/screenshots/screenshot-2585024532397912506
+11:20:19.636 [Darkroom Processing Line] DEBUG net.serenitybdd.core.photography.DarkroomProcessingLine - Saving screenshot to C:\Users\Dmeza\Desktop\venkireposity\target\site\serenity\d64c105650f1f937165f5cf98cc62bc2801ef6373c5d79b0db57d7b1e2ca7b1d.png
+11:20:19.651 [Test worker] DEBUG net.thucydides.core.steps.StepInterceptor - STARTING STEP: Credentials.performAs - {0} clicks on #locators
+11:20:22.540 [Test worker] DEBUG net.serenitybdd.core.photography.Darkroom - Send negative for processing for C:\Users\Dmeza\Desktop\venkireposity\target\site\serenity\26878f444a4b63ff464f0f06e0d33d4cd0a6c5659162e7db60d941a8933d13d7.png
+11:20:22.541 [Test worker] DEBUG net.thucydides.core.steps.StepInterceptor - STEP DONE: {0} clicks on #locators
+11:20:22.541 [Darkroom Processing Line] DEBUG net.serenitybdd.core.photography.DarkroomProcessingLine - Processing screenshot image in /var/screenshots/screenshot-4809522756104835715
+11:20:22.541 [Darkroom Processing Line] DEBUG net.serenitybdd.core.photography.DarkroomProcessingLine - Saving screenshot to C:\Users\Dmeza\Desktop\venkireposity\target\site\serenity\26878f444a4b63ff464f0f06e0d33d4cd0a6c5659162e7db60d941a8933d13d7.png
+    ?[32mWhen ?[0m?[32menters the credentials?[0m             ?[90m# LoginStepDefinitions.enters_the_credentials(String>)?[0m
+11:20:22.966 [Test worker] DEBUG net.serenitybdd.core.photography.Darkroom - Send negative for processing for C:\Users\Dmeza\Desktop\venkireposity\target\site\serenity\b619dc710d86bfed1d99e06631b640bb152b91f23b6adbc6b5f082dca39b81eb.png
+11:20:22.967 [Darkroom Processing Line] DEBUG net.serenitybdd.core.photography.DarkroomProcessingLine - Processing screenshot image in /var/screenshots/screenshot-1218169394758550202
+11:20:22.967 [Darkroom Processing Line] DEBUG net.serenitybdd.core.photography.DarkroomProcessingLine - Saving screenshot to C:\Users\Dmeza\Desktop\venkireposity\target\site\serenity\b619dc710d86bfed1d99e06631b640bb152b91f23b6adbc6b5f082dca39b81eb.png
+11:20:22.969 [Test worker] DEBUG net.serenitybdd.screenplay.targets.IFrameSwitcher - default content already selected for By.id: raul-header-user-handle
+11:20:23.362 [Test worker] DEBUG net.serenitybdd.core.photography.Darkroom - Send negative for processing for C:\Users\Dmeza\Desktop\venkireposity\target\site\serenity\c06c9332e6e809831310d680fa45c444484610de0ca352329b53ff5b7ff5d550.png
+11:20:23.363 [Darkroom Processing Line] DEBUG net.serenitybdd.core.photography.DarkroomProcessingLine - Processing screenshot image in /var/screenshots/screenshot-8535799852328055232
+11:20:23.363 [Darkroom Processing Line] DEBUG net.serenitybdd.core.photography.DarkroomProcessingLine - Saving screenshot to C:\Users\Dmeza\Desktop\venkireposity\target\site\serenity\c06c9332e6e809831310d680fa45c444484610de0ca352329b53ff5b7ff5d550.png
+    ?[32mThen ?[0m?[32mthe user is successfully logged in?[0m ?[90m# LoginStepDefinitions.the_user_is_successfully_logged_in()?[0m
 ]]></system-out>
-  <system-err><![CDATA[]]></system-err>
+  <system-err><![CDATA[Nov 26, 2020 11:20:14 AM org.openqa.selenium.remote.DesiredCapabilities chrome
+INFO: Using `new ChromeOptions()` is preferred to `DesiredCapabilities.chrome()`
+Starting ChromeDriver 86.0.4240.22 (398b0743353ff36fb1b82468f63a3a93b4e2e89e-refs/branch-heads/4240@{#378}) on port 46672
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+[1606407616.059][WARNING]: This version of ChromeDriver has not been tested with Chrome version 87.
+Nov 26, 2020 11:20:16 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
 </testsuite>
